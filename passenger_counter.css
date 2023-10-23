@@ -14,13 +14,18 @@ body{
     border: 3px solid rgb(0, 0, 0);
     border-radius: 10px;   
 }
-
+.container-1{
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 h1{
-    margin-top:90px;
+    margin-top:80px;
     margin-bottom: 10px;
     color:rgb(0, 0, 0);
-    
+    font-size: 30px;
 }
 
 h2{
@@ -40,9 +45,7 @@ button{
     width:180px;
     margin-bottom: 5px;
     font-weight: bolder;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
 }
 
 #increment-btn{   
@@ -51,12 +54,22 @@ button{
     font-weight: 30px;
     
 }
+#increment-btn:hover{
+    background-color: rgb(162, 126, 126);
+    color: black;
+}
+
 
 #save-btn{
-    background:darkgreen;
+    background:rgb(220, 191, 147);
     color: aliceblue;
+}
+#save-btn:hover{
+    background-color: rgb(123, 106, 80);
+    color: black;
 }
 
 #save-el{
     color: rgb(0, 0, 0);
+    padding-bottom: 30px;
 }
